@@ -1,0 +1,13 @@
+<ion-content id="listContent">
+    <ion-list>
+        <ion-item ng-repeat="item in items">
+            <p>{{item.string}}</p>
+            <button ng-click="deleteItem($index)" type="button">Delete</button>
+        </ion-item>
+    </ion-list>
+
+    <form id="listForm" ng-submit="addItem()">
+        <input type="text" ng-model="$parent.itemInput" placeholder="New Item">
+        <input type="submit" value="Add">
+    </form>
+</ion-content>

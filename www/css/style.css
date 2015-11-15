@@ -1,0 +1,51 @@
+/* Empty. Add your own CSS if you like */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#listContent {
+    top: 43px !important;
+}
+
+.item p {
+    font-size: 1rem;
+}
+
+.item button {
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    background: red;
+    border: none;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+}
+
+.item {
+    padding-right: 0;
+}
+
+#listForm {
+    border: 1px solid grey;
+}
+#listForm input[type=text] {
+    width: 50%;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    float: left;
+}
+
+#listForm input[type=submit] {
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    background: green;
+    border: none;
+    padding: 1rem 1.52rem;
+    right: 0;
+}

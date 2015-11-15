@@ -1,0 +1,20 @@
+{
+    "work": [{
+        "string": "Finish website",
+        "done": "false"
+    }],
+    "groceries": [{
+        "string": "Wine",
+        "done": "false"
+    }, {
+        "string": "Cherry tomatoes",
+        "done": "false"
+    }, {
+        "string": "Salami",
+        "done": "false"
+    }],
+    "chores": [{
+        "string": "Clean house",
+        "done": "false"
+    }]
+}
